@@ -11,5 +11,5 @@ The application was coded responsively, so that it provides optimal viewing from
 
 There are two pages for two "typical" winter and summer days - and they each can be accessed from the other at the very bottom of the page.
 
-http://davidostroff.com/weather2/index.hmtl
+http://davidostroff.com/weather2/index.html
 http://davidostroff.com/weather2/summer.html
