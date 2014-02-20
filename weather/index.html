@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What should you drink? Well, what's the weather like?">
+    <meta name="author" content="David Ostroff">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Weather to Drink?</title>
+
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/base.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="//use.typekit.net/gny0oqm.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body>
+
+
+
+<!--The weather info goes here-->
+<div id="photo-area" class="winter">
+	<h1>Weather to Drink?</h1>
+	
+	<div id="top-info">
+	
+	<div id="input-area">
+	<form>
+	<input placeholder="City or Postal Code" name="city" id="term" class="" type="text">	
+	<button type="submit" class="btn">Cheers!</button>	
+	</form>
+	</div>
+
+	<div id="weather-info">
+	<span class="location">Arlington, VA 22204</span> :
+	<span class="weather">34&deg;F and Snowing.</span>
+	</div>
+	
+	</div>
+</div>
+
+<!--All the drink info goes here-->
+<div id="drink-area">
+	
+	<h2><span class="tip">It's cold!</span> You should have a...</h2>
+
+	<!--Drink content goes here-->
+	
+	<div id="drink-id">	
+		
+		<div id="drink-info">
+		
+		<h3>Manhattan</h3>
+		
+		<img src="img/manhattan.jpg" alt="Manhattan" class="drink"/>
+		
+		<h4>Ingredients</h4>
+
+		<div id="ingredients">
+			<ul>
+			<li>2 ounces rye whisky</li>
+			<li>1 ounce Italian vermouth</li>
+			<li>2 dashes Angostura bitters</li>
+			<li>Maraschino cherry for garnish</li>
+			</ul>
+		</div>
+		
+		<h4>Directions</h4>
+		<div id="directions">
+			<ul>
+			<li>Pour the ingredients into a mixing glass with ice cubes.</li>
+			<li>Stir well.</li>
+			<li>Strain into a chilled cocktail glass.</li>
+			<li>Garnish with the cherry.</li>
+			</ul>
+		</div>
+		</div>
+	
+	</div>
+
+	
+
+</div>
+
+<!--Copyright-->
+<div id="footer">
+<p>Weather to drink? &copy;2014 <a href="http://www.davidostroff.com" target="_blank">David Ostroff</a> for Techspandex.</p>
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/weather-script.js"></script>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3024579-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
